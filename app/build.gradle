@@ -11,9 +11,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         /*指定使用javajdk1.8*/
         compileOptions {
-
             sourceCompatibility JavaVersion.VERSION_1_8
-
             targetCompatibility JavaVersion.VERSION_1_8
 
         }
