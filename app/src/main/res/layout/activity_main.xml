@@ -6,9 +6,10 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".ui.LauncherActivity">
 
     <TextView
+        android:id="@+id/aaa"
         android:layout_width="@dimen/space_400"
         android:layout_height="@dimen/space_400"
         android:gravity="center"

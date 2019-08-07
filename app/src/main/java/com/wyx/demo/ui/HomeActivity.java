@@ -1,17 +1,15 @@
-package com.wyx.demo;
+package com.wyx.demo.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-/**
- * @author   : lls
- * time      : 2019/8/5
- * describe  :
- */
-public class MainActivity extends AppCompatActivity {
+
+import com.wyx.demo.R;
+
+public class HomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_home);
     }
 }

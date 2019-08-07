@@ -15,6 +15,13 @@ android {
             targetCompatibility JavaVersion.VERSION_1_8
 
         }
+
+        /*lombok配合使用*/
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
     }
     buildTypes {
         release {
@@ -32,4 +39,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation 'org.projectlombok:lombok:1.16.18'
+    implementation 'javax.annotation:javax.annotation-api:1.2'
+
 }
