@@ -1,13 +1,10 @@
-package com.wyx.demo.ui;
+package com.wyx.demo.ui.activity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
-import android.view.animation.DecelerateInterpolator;
 import android.view.animation.RotateAnimation;
 import android.view.animation.ScaleAnimation;
 import android.widget.ImageView;
@@ -15,7 +12,6 @@ import android.widget.TextView;
 
 import com.wyx.demo.R;
 
-import butterknife.BindView;
 
 /**
  * @author : lls

@@ -1,4 +1,4 @@
-package com.wyx.demo.bean;
+package com.wyx.demo.ui.bean;
 
 
 import lombok.Data;

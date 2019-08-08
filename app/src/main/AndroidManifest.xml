@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme_AndroidProject">
-        <activity android:name=".ui.HomeActivity"
+        <activity android:name=".ui.activity.HomeActivity"
             android:alwaysRetainTaskState="true"
             android:launchMode="singleTask"
             ></activity>
@@ -24,7 +24,7 @@
         -->
         <!-- 启动页面（因为使用了LauncherTheme，所以不要给这个Activity设置screenOrientation属性，会导致崩溃） -->
         <activity
-            android:name=".ui.LauncherActivity"
+            android:name=".ui.activity.LauncherActivity"
             android:theme="@style/LauncherTheme">
 
             <!-- 程序入口 -->
