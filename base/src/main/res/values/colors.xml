@@ -46,4 +46,8 @@
     <!-- 橙色 -->
     <color name="orange">#FFA500</color>
 
+    <color name="color_333333">#333333</color>
+    <color name="color_EB4721">#EB4721</color>
+    <color name="color_eeeeee">#eeeeee</color>
+
 </resources>

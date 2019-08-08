@@ -1,0 +1,10 @@
+<resources>
+    <!--通用标题栏bg-->
+    <declare-styleable name="service_TitleBar">
+        <attr name="service_left_layout" format="reference" />
+        <attr name="service_title_layout" format="reference" />
+        <attr name="service_right_layout" format="reference" />
+    </declare-styleable>
+
+
+</resources>
