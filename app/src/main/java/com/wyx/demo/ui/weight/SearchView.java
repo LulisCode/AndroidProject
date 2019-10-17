@@ -16,7 +16,7 @@ import android.widget.TextView;
 /**
  * Author:wyx
  * Time:2019/9/4 17:57
- * Description:
+ * Description:  虎老板测试
  */
 public class SearchView extends FrameLayout {
     private TextView hintView;
