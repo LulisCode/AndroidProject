@@ -13,4 +13,29 @@
         android:layout_height="wrap_content"
         android:text="我是主页" />
 
+    <!--    <EditText
+            android:textCursorDrawable="@null"
+            android:gravity="center"
+            android:hint="ssssssss"
+            android:layout_width="300dp"
+            android:layout_height="50dp" />-->
+    <com.wyx.demo.ui.weight.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00f"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:hint="我是hint"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="#ccc"
+            android:textColorHint="#000"
+            android:textSize="16sp" />
+
+    </com.wyx.demo.ui.weight.SearchView>
+
+
 </LinearLayout>
